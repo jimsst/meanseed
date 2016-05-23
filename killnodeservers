@@ -1,0 +1,1 @@
+kill $(ps aux | grep 'server.js' | awk '{print $2}')
